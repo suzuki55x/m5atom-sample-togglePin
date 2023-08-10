@@ -12,6 +12,9 @@ void setup()
   delay(10);
 
   // GPIO21, 25を出力に設定
+  pinMode(21, OUTPUT);
+  pinMode(25, OUTPUT);
+
   digitalWrite(21, LOW);
   digitalWrite(25, LOW);
 
